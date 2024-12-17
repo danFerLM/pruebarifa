@@ -1,0 +1,61 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fef6e4; /* Pastel cálido */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe3e3; /* Rosa pastel */
+}
+
+header .logo {
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+/* Secciones */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    background-color: #fff7cd; /* Amarillo pastel */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #6b4226; /* Marrón suave */
+    text-align: center;
+}
+
+/* Listas */
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Imagen del afiche */
+.raffle-poster {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #b3e5fc; /* Azul pastel */
+    color: #333;
+}
