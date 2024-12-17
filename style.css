@@ -59,3 +59,32 @@ footer {
     background-color: #b3e5fc; /* Azul pastel */
     color: #333;
 }
+#raffle-details, #raffle-form {
+    background-color: #f9f1f1; /* Color pastel */
+    border: 2px solid #e2b1b1;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    text-align: center;
+}
+
+#raffle-form input, #raffle-form button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#raffle-form button {
+    background-color: #f47676;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#raffle-form button:hover {
+    background-color: #e06565;
+}
