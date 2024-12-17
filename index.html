@@ -63,3 +63,31 @@
     </footer>
 </body>
 </html>
+<!-- Sección para la Rifa -->
+<section id="raffle-details">
+    <h2>Detalles de la Rifa</h2>
+    <p><strong>Premios:</strong> 5 premios distintos.</p>
+    <p><strong>Costo del Número:</strong> S/5.00</p>
+    <p><strong>Fecha del Sorteo:</strong> 21 de diciembre a las 9 PM</p>
+    <p>Transmisión en vivo por nuestro Facebook: 
+        <a href="https://www.facebook.com/profile.php?id=61557357998998" target="_blank">Juntos por Lesly</a>
+    </p>
+</section>
+
+<!-- Formulario para Participar -->
+<section id="raffle-form">
+    <h2>Compra tu Número</h2>
+    <form id="registrationForm">
+        <label for="name">Nombre Completo:</label>
+        <input type="text" id="name" required><br>
+
+        <label for="phone">Número de Teléfono:</label>
+        <input type="text" id="phone" required><br>
+
+        <label for="proof">Captura de Pago (Yape):</label>
+        <input type="file" id="proof" accept="image/*" required><br>
+
+        <button type="submit">Enviar Datos</button>
+    </form>
+    <p id="confirmationMessage" style="color: green;"></p>
+</section>
